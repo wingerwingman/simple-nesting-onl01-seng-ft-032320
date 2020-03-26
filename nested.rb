@@ -15,8 +15,8 @@ def hopper
           :languages => ["C"]
         }
      }
-
-programmer_hash[:grace_hopper][:known_for].delete("FORTRAN")
+programmer_hash[:grace_hopper][:known_for] = "COBAL"
+programmer_hash[:grace_hopper][:known_for] = "COBAL", "FORTRAN"
 end
 
 def alan_kay_is_known_for
