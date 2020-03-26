@@ -79,10 +79,11 @@ def adding_matz
 
     
 programer_hash[:yukihiro_matsumoto] = {
-  known_for:  "Ruby",
+  known_for: "Ruby",
     languages: 
     ["LISP", "C"]
   }
+  program_hash
 
 end
 
